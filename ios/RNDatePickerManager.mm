@@ -235,7 +235,7 @@ RCT_EXPORT_METHOD(closePicker)
 }
 
 // New Architecture support - provide module instance to TurboModule system
- (BOOL)requiresMainQueueSetup {
++ (BOOL)requiresMainQueueSetup {
     return NO;
 }
 
